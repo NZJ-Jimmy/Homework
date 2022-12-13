@@ -78,4 +78,5 @@ inline void bank::showStatus()
 inline bank::~bank()
 {
     cout << Name << "'s bank account has been deleted." << endl;
+    // delete[] Name;
 }
